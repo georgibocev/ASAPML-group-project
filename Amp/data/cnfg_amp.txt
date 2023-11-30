@@ -1,0 +1,8 @@
+Board_8: 50
+Board_16: 100
+Board_24: 13
+Board_32: 10
+Board_64: 12
+Board_128: 13
+Board_256: 16
+Board_512: 11
