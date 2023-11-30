@@ -66,7 +66,7 @@ The project includes a Makefile for building and compiling the programs. The Mak
 
 # Instructions for Use
 1. Compile All Programs:
-  - Run make all to compile all programs (amp, bit, ohm, volt).
+  - Run 'make all' to compile all programs (amp, bit, ohm, volt).
 2. Compile Individual Programs:
   - Run make amp to compile the Amp program.
   - Run make bit to compile the Bit program.
