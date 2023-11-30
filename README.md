@@ -30,8 +30,8 @@ Features:
     
 This project provides an abstract representation of an automated process for printing hardware modules. Instead of working with real machines and physical products, the simulation involves individual programs and files.
 
-#Program Structure
-#Amp Program
+# Program Structure
+# Amp Program
 The Amp program consists of the following classes:
 
 * AssetMonitor: Manages inventory, checks and orders electronic components.
@@ -39,7 +39,7 @@ The Amp program consists of the following classes:
 * FileHandlerUtils: Utility class for file handling operations.
 * InventoryManager: Manages the inventory of electronic components.
   
-#Bit Program
+# Bit Program
 The Bit program includes the following classes:
 
 * Bit: Simulates the hardware component printing process.
@@ -48,23 +48,23 @@ The Bit program includes the following classes:
 * Pin: Represents a pin on an electronic component.
 * PinConnections: Manages connections between pins.
 
-#Ohm Program
+# Ohm Program
 The Ohm program is structured with the following classes:
 
 * Order: Represents a customer order.
 * OrderManagement: Manages orders, inventory, and the printing process.
   
-#Volt Program
+# Volt Program
 The Volt program includes the following classes:
 
 * Inventory: Represents an item in inventory.
 * OrderManagement: Manages orders, inventory, and order processing.
 * TextFileUtils: Utility class for handling text files.
   
-#Makefile
+# Makefile
 The project includes a Makefile for building and compiling the programs. The Makefile is organized with targets for each program (amp, bit, ohm, volt) and rules for compilation. To compile a specific program, use commands like make amp or make bit. The make clean command is available to remove generated object files and executables.
 
-#Instructions for Use
+# Instructions for Use
 1. Compile All Programs:
   - Run make all to compile all programs (amp, bit, ohm, volt).
 2. Compile Individual Programs:
